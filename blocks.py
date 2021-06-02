@@ -1,3 +1,6 @@
-for i in range(1,13):
-    print("No {} square is {} and cubed {:4}".format(i, i ** 2, i **3))
-    print("*" * 80)
+name = input("Please enter your name: ")
+age = int(input("How old are you, {0}?".format(name)))
+print(age)
+
+if age >= 18:
+    print("You are od enough to vote")
