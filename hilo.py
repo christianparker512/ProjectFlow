@@ -12,8 +12,11 @@ while True:
                     .format(guess)).casefold()
     if high_low =="h":
         #Guess higher: the low end of the range becomes 1 greater than the guess
+        pass
     elif high_low == "l":
         # guess lower. the high end of hte range becomes one less than the guess.
+        high = guess - 1
     elif high_low == "c":
             print("I got it in {} guesses!".format(guess))
+            break
     else: print("Please enter h, l or c")
