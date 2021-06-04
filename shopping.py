@@ -6,6 +6,7 @@ shopping_list = ["apples", "grapefruit", "coffee", "brisket", "tortillas", "pepp
 
 for item in shopping_list:
     if item == "onions":
-        continue
+        #continue
+        break
 
     print("Buy " + item)
