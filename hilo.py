@@ -25,3 +25,6 @@ while True:
         print("Please enter h, l or c")
 
     guesses = guesses + 1
+else:
+    print("You thought of number {}".format(low))
+    print("I got it in {} guesses".format(guesses))
